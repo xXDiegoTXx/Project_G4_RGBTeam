@@ -94,7 +94,7 @@ class GestorEstudiantes {
     }
 
     public void mostrarFichaTecnica() {
-        System.out.println("Equipo: \nIntegrante 1: Nombre, Rol \nIntegrante 2: Nombre, Rol\nEslogan: Nuestro eslogan.");
+        System.out.println("Equipo: \nIntegrante 1:\nDiego Nicolás Torres Vega, Owner\nIntegrante 2:\nISAAC JOSUE GONZALEZ PALMAR, Scrum Master\nIntegrante 3:\nJOSE LEAL OMAR MIRANDA, Developer\nIntegrante 4:\nEIDER MANRIQUE FABIAN SEPULVEDA, Developer\nEslogan:\n<Ingresar eslogan>.");
     }
 
     public void mostrarMenu() {
@@ -107,7 +107,7 @@ class GestorEstudiantes {
             System.out.println("4. Eliminar estudiante");
             System.out.println("5. Acerca de");
             System.out.println("6. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opción:\n");
 
             int opcion = scanner.nextInt();
             scanner.nextLine();  // Consumir el salto de línea
