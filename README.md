@@ -2,6 +2,23 @@ Proyecto de Gestión de Estudiantes y Calificaciones
 
 Este proyecto tiene como objetivo gestionar la información de estudiantes y sus calificaciones. Permite registrar estudiantes, ingresar o actualizar calificaciones, calcular promedios y consultar datos de los estudiantes.
 
+Estructura del Código
+
+Clases
+
+Estudiante:
+
+Atributos: ID, nombre, lista de calificaciones.
+
+Métodos: Constructor, calcular promedio, agregar calificación.
+
+
+GestorEstudiantes:
+
+Atributos: Lista de estudiantes.
+
+Métodos: Agregar estudiante, ingresar calificaciones, consultar estudiantes, eliminar estudiante.
+
 Funcionalidades
 
 1. Registrar Estudiantes: Permite agregar nuevos estudiantes con un ID único y su nombre.
@@ -36,25 +53,6 @@ Cada estudiante tiene un ID único, nombre y una lista de calificaciones.
 El sistema debe validar que las calificaciones estén en el rango de 0 a 10.
 
 La funcionalidad debe incluir un menú interactivo para gestionar las opciones del sistema.
-
-
-Estructura del Código
-
-Clases
-
-Estudiante:
-
-Atributos: ID, nombre, lista de calificaciones.
-
-Métodos: Constructor, calcular promedio, agregar calificación.
-
-
-GestorEstudiantes:
-
-Atributos: Lista de estudiantes.
-
-Métodos: Agregar estudiante, ingresar calificaciones, consultar estudiantes, eliminar estudiante.
-
 
 
 Cómo Ejecutar el Proyecto
